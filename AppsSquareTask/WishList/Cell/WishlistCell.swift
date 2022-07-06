@@ -8,10 +8,12 @@
 import UIKit
 
 class WishlistCell: UITableViewCell {
-
+    @IBOutlet weak var view1: UIView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        view1.layer.cornerRadius = 10
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

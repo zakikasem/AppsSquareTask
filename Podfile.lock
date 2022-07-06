@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (5.6.1)
+  - GMStepper (2.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - GMStepper
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - GMStepper
+
+SPEC CHECKSUMS:
+  Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
+  GMStepper: 89fb106944dfcc3aa3add7164e3ebd463ea2104b
+
+PODFILE CHECKSUM: c182cf6a314a84e8264d596efd39da997480d616
+
+COCOAPODS: 1.11.3

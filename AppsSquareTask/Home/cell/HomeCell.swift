@@ -8,7 +8,14 @@
 import UIKit
 
 class HomeCell: UITableViewCell {
-
+    @IBOutlet weak var imageCell: UIImageView!
+    @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var cateogry: UILabel!
+    @IBOutlet weak var price: UILabel!
+    @IBOutlet weak var productImage: UIImageView!
+    
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

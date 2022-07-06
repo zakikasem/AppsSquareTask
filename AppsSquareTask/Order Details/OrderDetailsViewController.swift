@@ -10,13 +10,23 @@ import GMStepper
 
 class OrderDetailsViewController: UIViewController {
     @IBOutlet weak var stepper: GMStepper!
-    
+    @IBOutlet weak var orderImage: UIImageView!
     @IBOutlet weak var addToCartBtt: UIButton!
+    @IBOutlet weak var productName: UILabel!
+    @IBOutlet weak var prooductCateogry: UILabel!
+    
+    var strd:UIImage!
+    var name : String!
+    var cateogry : String!
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         stepper.addTarget(self, action: #selector(OrderDetailsViewController.stepperValueChanged), for: .valueChanged)
         roundedBttnWithShadow(Bttn: addToCartBtt)
+        orderImage.image = strd
+        productName.text = name
+        prooductCateogry.text = cateogry
     }
 
     @objc func stepperValueChanged(stepper: GMStepper) {

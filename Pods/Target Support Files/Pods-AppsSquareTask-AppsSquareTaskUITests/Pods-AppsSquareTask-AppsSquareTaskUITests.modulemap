@@ -1,0 +1,6 @@
+framework module Pods_AppsSquareTask_AppsSquareTaskUITests {
+  umbrella header "Pods-AppsSquareTask-AppsSquareTaskUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
